@@ -1,4 +1,4 @@
-FROM apache:latest
+FROM httpd:latest
 MAINTAINER Gutar "<admin@escolasoft.com>"
 ENV DEBIAN_FRONTEND=noninteractive
 
