@@ -14,6 +14,7 @@ RUN apt-get update -y && apt-get install -y \
   git \
   gcc \
   g++ \
+  make \
   --no-install-recommends && \
   apt-get autoremove -y && \
   rm -rf /var/lib/apt/lists/*
